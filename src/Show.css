@@ -1,0 +1,39 @@
+
+.show-container{
+    min-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.card{
+    margin-bottom: 20px; 
+}
+h4{color: #EA2027;}
+.card-title{color: #1B1464;}
+.delete-button{
+    color:#c23616;
+    border: 1px solid #c23616;
+    background-color: #ffff;
+    padding:2px 5px ;
+    border-radius:5px;
+   
+}
+.edit-button{
+    color:#3867d6;
+    border: 1px solid #3867d6;
+    background-color: #ffff;
+    padding:2px 5px ;
+    border-radius:5px;
+}
+.delete-button:hover{
+    background-color:#c23616;
+     color: #ffff;
+}
+.buttons{display: flex;
+justify-content: center;  align-items: center;gap:10px; }
+.edit-button:hover{
+    background-color: #3867d6;
+    color:#ffff;
+}
